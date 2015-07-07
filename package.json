@@ -1,22 +1,46 @@
 {
-  "name": "xml2json",
-  "version": "0.7.1",
-  "author": "Andrew Turley",
-  "email": "aturley@buglabs.net",
-  "description": "Converts xml to json and vice-versa, using node-expat.",
-  "repository": "git://github.com/buglabs/node-xml2json.git",
-  "license": "MIT",
-  "main": "index",
+  "name": "xml2json-gowhich",
+  "version": "1.0.0",
+  "description": "通过node-expat转换xml为json和vice-verse",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-expat-gowhich": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangda89/node-xml2json.git"
+  },
   "contributors": [
     {
       "name": "Camilo Aguilar",
       "email": "camilo.aguilar@gmail.com"
     }
   ],
-  "dependencies": {
-    "node-expat": "git://github.com/zhangda89/node-expat.git"
+  "keywords": [
+    "xml",
+    "json",
+    "xmltojson",
+    "xml2json",
+    "node-expat"
+  ],
+  "author": {
+    "name": "Durban",
+    "email": "zhangdapeng89@126.com",
+    "web": "http://www.gowhich.com"
   },
-  "bin": {
-    "xml2json": "bin/xml2json"
-  }
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangda89/node-xml2json/issues"
+  },
+  "engines": {
+    "node": ">=0.12.4"
+  },
+  "homepage": "https://github.com/zhangda89/node-xml2json#readme"
 }
